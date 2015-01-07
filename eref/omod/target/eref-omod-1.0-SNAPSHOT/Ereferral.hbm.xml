@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd" >
+
+<!-- This file must be listed in the /metadata/config.xml file in the mappingFiles element -->
+
+<hibernate-mapping package="org.openmrs.module.eref.db">
+	
+	<!-- This table is created at module startup because we defined it in the sqldiff.xml file -->	
+	<class name="Ereferral" table="hnet_e_reff">
+
+		<id name="hnet_e_reff_id" type="int" column="hnet_e_reff_id" unsaved-value="0">
+			<generator class="native" />
+		</id>
+
+		<property name="pat_encounter_id" 
+		    type="java.lang.String" 
+		    column="pat_encounter_id" 
+		    not-null="true" />
+		
+			
+		<!-- Uncomment this and add an attribute to the AwesomeLevel.java object -->
+		
+		<!-- <property name="comment" type="String" not-null="true" column="comment" /> -->
+		
+	</class>
+</hibernate-mapping>

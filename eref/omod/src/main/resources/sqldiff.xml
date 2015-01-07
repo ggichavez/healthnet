@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE sqldiff PUBLIC "-//OpenMRS//DTD OpenMRS SQL Diff Config 1.0//EN" "http://resources.openmrs.org/doctype/sqldiff-1.0.dtd">
+
+<sqldiff version="1.0">
+	<help>
+		USE:
+			The diffs are ordered by datamodel version number.
+			The script can be run in a top down fashion and is
+			expected to not failor overwrite old data
+		
+		EXPECT:
+			- "use business-database-name;" was called prior to
+			   calling this script
+	</help>
+	
+	<diff>
+		<version>1.0.4</version>
+		<author>Vinit</author>
+		<date></date>
+		<description>
+			
+		</description>
+		<sql>
+		       DROP TABLE  IF EXISTS `hnet_e_reff` ;
+		       CREATE TABLE IF NOT EXISTS `hnet_e_reff` (
+			  `hnet_e_reff_id` int(11) NOT NULL auto_increment,
+			  `pat_encounter_id` TEXT NOT NULL,
+			   PRIMARY KEY  (`hnet_e_reff_id`)
+			) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+			</sql>
+	</diff>
+	
+</sqldiff>

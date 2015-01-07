@@ -1,0 +1,1101 @@
+<!DOCTYPE html>
+<!-- saved from url=(0075)http://code.google.com/apis/chart/interactive/docs/gallery/columnchart.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+<title>Visualization: Column Chart - Google Chart Tools - Google Code</title>
+<script src="./Visualization  Column Chart - Google Chart Tools - Google Code_files/googleapis.client__plusone.js"></script><script type="text/javascript"><!--
+(function(){function a(){this.t={};this.tick=function(c){this.t[c]=(new Date).getTime()};this.tick("start")}var b=new a;window.jstiming={Timer:a,load:b};if(window.external&&window.external.pageT)window.jstiming.pt=window.external.pageT;})();
+
+var _tocPath_ = '/html/apis/chart/interactive/docs/_toc.ezt';
+var codesite_token = null;
+var logged_in_user_email = null;
+//--></script>
+<link href="./Visualization  Column Chart - Google Chart Tools - Google Code_files/codesite.pack.04102009.css" type="text/css" rel="stylesheet">
+<script src="./Visualization  Column Chart - Google Chart Tools - Google Code_files/codesite_head.pack.04102009.js" type="text/javascript"></script>
+<script type="text/javascript">CODESITE_CSITimer['load'].tick('bhs');</script>
+<link rel="search" type="application/opensearchdescription+xml" title="Google Code" href="http://code.google.com/osd.xml">
+
+<!--[if IE]><link rel="stylesheet" type="text/css" href="/css/iehacks.css"><![endif]-->
+
+    <link href="./Visualization  Column Chart - Google Chart Tools - Google Code_files/semantic_headers.css" rel="stylesheet" type="text/css">
+    
+<link rel="stylesheet" type="text/css" href="./Visualization  Column Chart - Google Chart Tools - Google Code_files/local_extensions.css">
+<link href="./Visualization  Column Chart - Google Chart Tools - Google Code_files/buttons.css" type="text/css" rel="stylesheet">
+
+    
+  <script type="text/javascript" async="" src="./Visualization  Column Chart - Google Chart Tools - Google Code_files/ga.js"></script></head>
+
+  <body class="gc-documentation">
+
+    
+    
+
+    <script type="text/javascript">
+var _gaq = _gaq || [];
+
+var cookiePath = '/apis/chart/index.html';
+if (cookiePath.lastIndexOf('.html') > cookiePath.lastIndexOf('/')) {
+  cookiePath = cookiePath.substring(0, cookiePath.lastIndexOf('/') + 1);
+};
+
+_gaq.push(
+
+
+    ['siteTracker._setAccount', 'UA-18071-1'],
+    ['siteTracker._setDomainName', 'code.google.com'],
+    ['siteTracker._trackPageview']
+);
+(function() {
+  var ga = document.createElement('script');
+  ga.type = 'text/javascript';
+  ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  (document.getElementsByTagName('head')[0] ||
+   document.getElementsByTagName('body')[0]).appendChild(ga);
+ })();
+</script>
+
+
+<div id="gb">
+ <span>
+  
+   
+    <a href="http://code.google.com/apis/chart/interactive/docs/gallery/columnchart.html#" id="projects-dropdown" onclick="return false;"><span style="text-decoration:underline">My favorites</span> <span style="font-size:.75em;">▼</span></a>
+    |
+  
+    <a id="lang-dropdown" href="http://code.google.com/" onclick="return false;"><span style="text-decoration:underline">English</span> <span style="font-size:.75em;">▼</span></a>
+  
+   
+    | <a href="https://www.google.com/accounts/Login?continue=http%3A%2F%2Fcode.google.com%2Fapis%2Fchart%2Finteractive%2Fdocs%2Fgallery%2Fcolumnchart.html&followup=http%3A%2F%2Fcode.google.com%2Fapis%2Fchart%2Finteractive%2Fdocs%2Fgallery%2Fcolumnchart.html" onclick="CODESITE_click(&#39;/gb/sc/signin&#39;);"><span style="style:text-decoration:underline">Sign in</span></a>
+   
+  
+ </span>
+</div>
+
+<div class="gbh" style="left:0px;"></div>
+<div class="gbh" style="right:0px;"></div>
+
+
+<div id="gc-container">
+<a id="top"></a>
+<div id="skipto">
+  <a href="http://code.google.com/apis/chart/interactive/docs/gallery/columnchart.html#gc-pagecontent">Skip to page content</a>
+  <a href="http://code.google.com/apis/chart/interactive/docs/gallery/columnchart.html#gc-toc">Skip to main navigation</a>
+</div>
+
+<div id="gc-header">
+  <div id="logo"><a href="http://code.google.com/">
+  
+  
+     <img src="./Visualization  Column Chart - Google Chart Tools - Google Code_files/code_logo.gif" height="40" width="167" alt="Google Code" style="border:0;margin:3px 0 0 0;">
+  
+  
+  </a></div>
+  <div id="search">
+    <div id="searchForm">
+      <form id="cse" action="http://www.google.com/cse" accept-charset="utf-8" onsubmit="executeGSearch(document.getElementById(&#39;gsearchInput&#39;).value); return false;">
+      <noscript>
+      &lt;input type="hidden" name="cref" value="http://code.google.com/cse/googlecode-context.xml"&gt;
+      </noscript>
+      <div id="gsc-search-box">
+        <input id="gsearchInput" type="text" name="q" maxlength="2048" class="gsc-input" autocomplete="off" title="Google Code Search" style="width:345px">
+        <div id="cs-searchresults" onclick="event.cancelBubble = true;"></div>
+        <input title="Search" id="gsearchButton" class="gsc-search-button" name="sa" value="Search" type="submit">
+        <div class="greytext">e.g. "adwords" or "open source"</div>
+      </div>
+      </form>
+    </div> <!-- end searchForm -->
+  </div> <!-- end search -->
+
+
+
+
+</div> <!-- end gc-header -->
+
+
+<div id="codesiteContent">
+
+<a id="gc-topnav-anchor"></a>
+<div id="gc-topnav">
+  <h1 style="padding:0 0 0 6px;">Google Chart Tools</h1>
+  <ul class="gc-topnav-tabs">
+
+    <li id="home_link">
+      <a href="http://code.google.com/apis/chart/index.html" title="Google Chart Tools home page">Home</a>
+    </li>
+  
+    <li id="docs_link">
+      <a href="http://code.google.com/apis/chart/interactive/docs/" title="Official Google Chart Tools documentation">Docs</a>
+    </li>
+  
+    <li id="faq_link">
+      <a href="http://code.google.com/apis/chart/interactive/faq.html" title="Answers to frequently asked questions about Google Chart Tools">FAQ</a>
+    </li>
+  
+    <li>
+      <a href="http://groups.google.com/group/google-visualization-api" title="Google Chart Tools developer forum">Forum</a>
+    </li>
+  
+    <li>
+      <a href="http://code.google.com/apis/chart/interactive/terms.html" title="Google Chart Tools terms of service">Terms</a>
+    </li>
+  
+
+  
+  
+  
+  
+  <li><div id="___plusone_0" style="height: 15px; width: 24px; display: inline-block; text-indent: 0px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; background-image: initial; background-attachment: initial; background-origin: initial; background-clip: initial; background-color: transparent; border-top-style: none; border-right-style: none; border-bottom-style: none; border-left-style: none; float: none; line-height: normal; font-size: 1px; vertical-align: baseline; background-position: initial initial; background-repeat: initial initial; "><iframe allowtransparency="true" frameborder="0" hspace="0" id="I1_1320731323097" marginheight="0" marginwidth="0" name="I1_1320731323097" scrolling="no" src="./Visualization  Column Chart - Google Chart Tools - Google Code_files/fastbutton.htm" style="width: 24px; margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; border-top-style: none; border-right-style: none; border-bottom-style: none; border-left-style: none; height: 15px; position: static; left: 0px; top: 0px; visibility: visible; " tabindex="-1" vspace="0" width="100%" title="+1"></iframe></div>&nbsp;</li>
+</ul>
+</div> <!-- end gc-topnav -->
+
+
+
+    <div class="g-section g-tpl-210">
+
+      <div class="g-unit g-first" id="gc-toc">
+        <ul class="treelist tlw-nested-only tlw-processed tlw-instance-0">
+  <li><a href="http://code.google.com/apis/chart/interactive/docs/index.html"><strong>Overview</strong></a></li>
+  <li>
+    <ul>
+      <li style="padding-top: 0px; padding-bottom: 0px; ">
+        <div class="tlw-title tlw-branch"><a href="javascript:void(0)" class="tlw-control" title="Expand Hello Charts!"><img src="./Visualization  Column Chart - Google Chart Tools - Google Code_files/cleardot.gif" alt="Expand Hello Charts!" class="tlw-control tlw-plus"></a><a href="http://code.google.com/apis/chart/interactive/docs/quick_start.html"><strong>Hello Charts!</strong></a></div><ul id="0-sub-0" style="display: none; ">
+          <li><a href="http://code.google.com/apis/chart/interactive/docs/basic_load_libs.html">Loading the Libraries</a></li>
+          <li><a href="http://code.google.com/apis/chart/interactive/docs/basic_preparing_data.html">Preparing Data</a></li>
+          <li><a href="http://code.google.com/apis/chart/interactive/docs/basic_customizing_chart.html">Customizing the Chart</a></li>
+          <li><a href="http://code.google.com/apis/chart/interactive/docs/basic_draw_chart.html">Drawing the Chart</a></li>
+          <li><a href="http://code.google.com/apis/chart/interactive/docs/basic_interactivity.html">Adding Interactivity</a></li>
+          <li><a href="http://code.google.com/apis/chart/interactive/docs/security_privacy.html">Security and Privacy</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+<div class="line"></div>
+<ul class="treelist tlw-nested-only tlw-processed tlw-instance-1">
+  <li>
+    <ul>
+      <li style="padding-top: 0px; padding-bottom: 0px; ">
+        <div class="tlw-title tlw-branch"><a href="javascript:void(0)" class="tlw-control" title="Collapse Chart Gallery"><img src="./Visualization  Column Chart - Google Chart Tools - Google Code_files/cleardot.gif" alt="Collapse Chart Gallery" class="tlw-control tlw-minus"></a><a href="http://code.google.com/apis/chart/interactive/docs/gallery.html"><strong>Chart Gallery</strong></a></div><ul id="1-sub-0" style="display: block; ">
+          <li><a href="http://code.google.com/apis/chart/interactive/docs/gallery/areachart.html">Area Charts</a></li>
+          <li><a href="http://code.google.com/apis/chart/interactive/docs/gallery/barchart.html">Bar Charts</a></li>
+          <li><a href="http://code.google.com/apis/chart/interactive/docs/gallery/candlestickchart.html">Candlestick Charts</a></li>
+          <li class="selected"><a href="./Visualization  Column Chart - Google Chart Tools - Google Code_files/Visualization  Column Chart - Google Chart Tools - Google Code.htm">Column Charts</a></li>
+          <li><a href="http://code.google.com/apis/chart/interactive/docs/gallery/combochart.html">Combo Charts</a></li>
+          <li><a href="http://code.google.com/apis/chart/interactive/docs/gallery/gauge.html">Gauge Charts</a></li>
+          <li><a href="http://code.google.com/apis/chart/interactive/docs/gallery/geochart.html">Geo Charts</a></li>
+          <li><a href="http://code.google.com/apis/chart/interactive/docs/gallery/linechart.html">Line Charts</a></li>
+          <li><a href="http://code.google.com/apis/chart/interactive/docs/gallery/piechart.html">Pie Charts</a></li>
+          <li><a href="http://code.google.com/apis/chart/interactive/docs/gallery/scatterchart.html">Scatter Charts</a></li>
+          <li><a href="http://code.google.com/apis/chart/interactive/docs/gallery/table.html">Table Charts</a></li>
+          <li><a href="http://code.google.com/apis/chart/interactive/docs/gallery/treemap.html">Tree Map Charts</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+<div class="line"></div>
+<ul class="treelist tlw-nested-only tlw-processed tlw-instance-2">
+  <ul>
+    <li style="padding-top: 0px; padding-bottom: 0px; ">
+      <div class="tlw-title tlw-branch"><a href="javascript:void(0)" class="tlw-control" title="Expand Drawing Charts"><img src="./Visualization  Column Chart - Google Chart Tools - Google Code_files/cleardot.gif" alt="Expand Drawing Charts" class="tlw-control tlw-plus"></a><span class="tlw-title"><strong>Drawing Charts</strong></span></div><ul id="2-sub-0" style="display: none; ">
+        <li style="padding-top: 0px; padding-bottom: 0px; ">
+          <div class="tlw-title tlw-branch"><a href="javascript:void(0)" class="tlw-control" title="Expand Chart Drawing Techniques"><img src="./Visualization  Column Chart - Google Chart Tools - Google Code_files/cleardot.gif" alt="Expand Chart Drawing Techniques" class="tlw-control tlw-plus"></a><a href="http://code.google.com/apis/chart/interactive/docs/drawing_charts.html">Chart Drawing Techniques</a></div><ul id="2-sub-1" style="display: none; ">
+            <li><a href="http://code.google.com/apis/chart/interactive/docs/drawing_charts.html#chart.draw">chart.draw()</a></li>
+            <li><a href="http://code.google.com/apis/chart/interactive/docs/drawing_charts.html#chartwrapper">ChartWrapper</a></li>
+          </ul>
+        </li>
+        <li style="padding-top: 0px; padding-bottom: 0px; ">
+          <div class="tlw-title tlw-branch"><a href="javascript:void(0)" class="tlw-control" title="Expand Customizing Charts"><img src="./Visualization  Column Chart - Google Chart Tools - Google Code_files/cleardot.gif" alt="Expand Customizing Charts" class="tlw-control tlw-plus"></a><span class="tlw-title"><strong>Customizing Charts</strong></span></div><ul id="2-sub-2" style="display: none; ">
+            <li><a href="http://code.google.com/apis/chart/interactive/docs/gallery.html">Chart Types</a></li>
+            <li><a href="http://code.google.com/apis/chart/interactive/docs/customizing_charts.html">Chart Options</a></li>
+            <li><a href="http://code.google.com/apis/chart/interactive/docs/reference.html#formatters">Formatters</a></li>
+            <li><a href="http://code.google.com/apis/chart/interactive/docs/dev/index.html">Contributing a New Chart</a></li>
+          </ul>
+        </li>
+        <li><a href="http://code.google.com/apis/chart/interactive/docs/general_dev_tools.html">Development Tools</a></li>
+        <li><a href="http://code.google.com/apis/chart/interactive/docs/library_loading_enhancements.html">Library Loading</a></li>
+      </ul>
+    </li>
+  </ul>
+</ul>
+<ul class="treelist tlw-nested-only tlw-processed tlw-instance-3">
+  <ul>
+    <li style="padding-top: 0px; padding-bottom: 0px; ">
+      <div class="tlw-title tlw-branch"><a href="javascript:void(0)" class="tlw-control" title="Expand Interacting with Charts"><img src="./Visualization  Column Chart - Google Chart Tools - Google Code_files/cleardot.gif" alt="Expand Interacting with Charts" class="tlw-control tlw-plus"></a><span class="tlw-title"><strong>Interacting with Charts</strong></span></div><ul id="3-sub-0" style="display: none; ">
+        <li><a href="http://code.google.com/apis/chart/interactive/docs/events.html">Handling Events</a></li>
+        <li><a href="http://code.google.com/apis/chart/interactive/docs/gallery/controls.html">Controls and Dashboards</a><img src="./Visualization  Column Chart - Google Chart Tools - Google Code_files/labs-11.png" alt="Labs" sty="" le="vertical-align: baseline"></li>
+        <li><a href="http://code.google.com/apis/chart/interactive/docs/gallery/toolbar.html">Toolbars</a></li>
+        <li><a href="http://code.google.com/apis/chart/interactive/docs/drawing_charts.html#charteditor">ChartEditor</a></li>
+      </ul>
+    </li>
+  </ul>
+</ul>
+<ul class="treelist tlw-nested-only tlw-processed tlw-instance-4">
+  <ul>
+    <li style="padding-top: 0px; padding-bottom: 0px; ">
+      <div class="tlw-title tlw-branch"><a href="javascript:void(0)" class="tlw-control" title="Expand Chart Data"><img src="./Visualization  Column Chart - Google Chart Tools - Google Code_files/cleardot.gif" alt="Expand Chart Data" class="tlw-control tlw-plus"></a><span class="tlw-title"><strong>Chart Data</strong></span></div><ul id="4-sub-0" style="display: none; ">
+        <li><a href="http://code.google.com/apis/chart/interactive/docs/datatables_dataviews.html">DataTables and DataViews</a></li>
+        <li><a href="http://code.google.com/apis/chart/interactive/docs/php_example.html">Connecting Your Database</a></li>
+        <li style="padding-top: 0px; padding-bottom: 0px; ">
+          <div class="tlw-title tlw-branch"><a href="javascript:void(0)" class="tlw-control" title="Expand Querying a Chart Tools Datasource"><img src="./Visualization  Column Chart - Google Chart Tools - Google Code_files/cleardot.gif" alt="Expand Querying a Chart Tools Datasource" class="tlw-control tlw-plus"></a><a href="http://code.google.com/apis/chart/interactive/docs/queries.html">Querying a Chart Tools Datasource</a></div><ul id="4-sub-1" style="display: none; ">
+            <li><a href="http://code.google.com/apis/chart/interactive/docs/querylanguage.html">Query Language Reference</a></li>
+            <li><a href="http://code.google.com/apis/chart/interactive/docs/spreadsheets.html">Google Spreadsheets</a></li>
+            <li><a href="http://code.google.com/apis/chart/interactive/docs/fusiontables.html">Fusion Tables</a></li>
+            <li><span class="tlw-title"><a href="http://code.google.com/apis/chart/interactive/docs/dev/implementing_data_source.html">Implementing a Datasource</a></span></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</ul>
+<div class="line"></div>
+<ul class="treelist tlw-nested-only tlw-processed tlw-instance-5">
+  <ul>
+    <li style="padding-top: 0px; padding-bottom: 0px; ">
+      <div class="tlw-title tlw-branch"><a href="javascript:void(0)" class="tlw-control" title="Expand API Reference"><img src="./Visualization  Column Chart - Google Chart Tools - Google Code_files/cleardot.gif" alt="Expand API Reference" class="tlw-control tlw-plus"></a><a href="http://code.google.com/apis/chart/interactive/docs/reference.html" class="tlw-title"><strong>API Reference</strong></a></div><ul id="5-sub-0" style="display: none; ">
+        <li><a href="http://code.google.com/apis/chart/interactive/docs/reference.html#DataTable">DataTable Class</a></li>
+        <li><a href="http://code.google.com/apis/chart/interactive/docs/reference.html#DataView">DataView Class</a></li>
+        <li><a href="http://code.google.com/apis/chart/interactive/docs/reference.html#chartwrapperobject">ChartWrapper Class</a></li>
+        <li><a href="http://code.google.com/apis/chart/interactive/docs/reference.html#google_visualization_charteditor">ChartEditor Class</a></li>
+        <li style="padding-top: 0px; padding-bottom: 0px; ">
+          <div class="tlw-title tlw-branch"><a href="javascript:void(0)" class="tlw-control" title="Expand Data Manipulation Methods"><img src="./Visualization  Column Chart - Google Chart Tools - Google Code_files/cleardot.gif" alt="Expand Data Manipulation Methods" class="tlw-control tlw-plus"></a><a href="http://code.google.com/apis/chart/interactive/docs/reference.html#google_visualization_data">Data Manipulation Methods</a></div><ul id="5-sub-1" style="display: none; ">
+            <li><a href="http://code.google.com/apis/chart/interactive/docs/reference.html#google_visualization_data_group">group()</a></li>
+            <li><a href="http://code.google.com/apis/chart/interactive/docs/reference.html#google_visualization_data_join">join</a>()</li>
+          </ul>
+        </li>
+        <li style="padding-top: 0px; padding-bottom: 0px; ">
+          <div class="tlw-title tlw-branch"><a href="javascript:void(0)" class="tlw-control" title="Expand Formatters"><img src="./Visualization  Column Chart - Google Chart Tools - Google Code_files/cleardot.gif" alt="Expand Formatters" class="tlw-control tlw-plus"></a><a href="http://code.google.com/apis/chart/interactive/docs/reference.html#formatters">Formatters</a></div><ul id="5-sub-2" style="display: none; ">
+            <li><a href="http://code.google.com/apis/chart/interactive/docs/reference.html#arrowformatter">ArrowFormat</a></li>
+            <li><a href="http://code.google.com/apis/chart/interactive/docs/reference.html#barformatter">BarFormat</a></li>
+            <li><a href="http://code.google.com/apis/chart/interactive/docs/reference.html#colorformatter">ColorFormat</a></li>
+            <li><a href="http://code.google.com/apis/chart/interactive/docs/reference.html#dateformatter">DateFormat</a></li>
+            <li><a href="http://code.google.com/apis/chart/interactive/docs/reference.html#numberformatter">NumberFormat</a></li>
+            <li><a href="http://code.google.com/apis/chart/interactive/docs/reference.html#patternformatter">PatternFormat</a></li>
+          </ul>
+        </li>
+        <li><a href="http://code.google.com/apis/chart/interactive/docs/reference.html#GadgetHelper">GadgetHelper Class</a></li>
+        <li style="padding-top: 0px; padding-bottom: 0px; ">
+          <div class="tlw-title tlw-branch"><a href="javascript:void(0)" class="tlw-control" title="Expand Query Classes"><img src="./Visualization  Column Chart - Google Chart Tools - Google Code_files/cleardot.gif" alt="Expand Query Classes" class="tlw-control tlw-plus"></a><a href="http://code.google.com/apis/chart/interactive/docs/reference.html#queryobjects">Query Classes</a></div><ul id="5-sub-3" style="display: none; ">
+            <li><a href="http://code.google.com/apis/chart/interactive/docs/reference.html#Query">Query</a></li>
+            <li><a href="http://code.google.com/apis/chart/interactive/docs/reference.html#QueryResponse">QueryResponse</a></li>
+          </ul>
+        </li>
+        <li><a href="http://code.google.com/apis/chart/interactive/docs/reference.html#errordisplay">Error Display Class</a></li>
+        <li style="padding-top: 0px; padding-bottom: 0px; ">
+          <div class="tlw-title tlw-branch"><a href="javascript:void(0)" class="tlw-control" title="Expand Events"><img src="./Visualization  Column Chart - Google Chart Tools - Google Code_files/cleardot.gif" alt="Expand Events" class="tlw-control tlw-plus"></a><a href="http://code.google.com/apis/chart/interactive/docs/reference.html#events">Events</a></div><ul id="5-sub-4" style="display: none; ">
+            <li><a href="http://code.google.com/apis/chart/interactive/docs/reference.html#trigger">trigger()</a></li>
+            <li><a href="http://code.google.com/apis/chart/interactive/docs/reference.html#addlistener">addListener()</a></li>
+          </ul>
+        </li>
+        <li style="padding-top: 0px; padding-bottom: 0px; ">
+          <div class="tlw-title tlw-branch"><a href="javascript:void(0)" class="tlw-control" title="Expand Standard Visualization Methods and Properties"><img src="./Visualization  Column Chart - Google Chart Tools - Google Code_files/cleardot.gif" alt="Expand Standard Visualization Methods and Properties" class="tlw-control tlw-plus"></a><a href="http://code.google.com/apis/chart/interactive/docs/reference.html#standardproperties">Standard Visualization Methods and Properties</a></div><ul id="5-sub-5" style="display: none; ">
+            <li><a href="http://code.google.com/apis/chart/interactive/docs/reference.html#visconstructor">Constructor</a></li>
+            <li><a href="http://code.google.com/apis/chart/interactive/docs/reference.html#visdraw">draw()</a></li>
+            <li><a href="http://code.google.com/apis/chart/interactive/docs/reference.html#visgetselection">getSelection()</a></li>
+            <li><a href="http://code.google.com/apis/chart/interactive/docs/reference.html#vissetselection">setSelection()</a></li>
+          </ul>
+        </li>
+        <li style="padding-top: 0px; padding-bottom: 0px; ">
+          <div class="tlw-title tlw-branch"><a href="javascript:void(0)" class="tlw-control" title="Expand Assorted Static Methods"><img src="./Visualization  Column Chart - Google Chart Tools - Google Code_files/cleardot.gif" alt="Expand Assorted Static Methods" class="tlw-control tlw-plus"></a><a href="http://code.google.com/apis/chart/interactive/docs/reference.html#assortedmethods">Assorted Static Methods</a></div><ul id="5-sub-6" style="display: none; ">
+            <li><a href="http://code.google.com/apis/chart/interactive/docs/reference.html#google.visualization.arraytodatatable">arrayToDataTable()</a></li>
+            <li><a href="http://code.google.com/apis/chart/interactive/docs/reference.html#google.visualization.drawchart">drawChart()</a></li>
+            <li><a href="http://code.google.com/apis/chart/interactive/docs/reference.html#drawToolbar">drawToolbar()</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</ul>
+<div class="line"></div>
+<ul class="treelist tlw-nested-only tlw-processed tlw-instance-6">
+  <li><strong>Examples and Tools </strong>
+    <ul>
+      <li><a href="http://code.google.com/apis/ajax/playground/?type=visualization">Playground</a><img src="./Visualization  Column Chart - Google Chart Tools - Google Code_files/external.png" alt="Outside this documentation set"></li>
+      <li><a href="http://code.google.com/apis/chart/interactive/docs/examples.html">Examples</a></li>
+    </ul>
+  </li>
+</ul>
+<div class="line"></div>
+<ul class="treelist tlw-nested-only tlw-processed tlw-instance-7">
+  <li><strong>Community </strong>
+    <ul>
+      <li><a href="http://groups.google.com/group/google-visualization-api">Forum</a></li>
+      <li><a href="http://code.google.com/p/google-visualization-api-issues/issues/list">Issues &amp; Requests</a></li>
+      <li><a href="http://code.google.com/apis/chart/interactive/faq.html">FAQ</a></li>
+      <li><a href="http://code.google.com/apis/chart/interactive/docs/user_gallery.html">Hall of Fame</a></li>
+    </ul>
+  </li>
+</ul>
+<div class="line"></div>
+<ul class="treelist tlw-nested-only tlw-processed tlw-instance-8">
+  <li><strong>About Chart Tools </strong>
+    <ul>
+      <li><a href="http://code.google.com/apis/chart/interactive/docs/release_notes.html#whatsnew">What's New?</a></li>
+      <li><a href="http://code.google.com/apis/chart/interactive/docs/release_notes.html">Release Notes</a></li>
+    </ul>
+  </li>
+</ul>
+<div class="line"></div>
+<ul class="treelist tlw-nested-only tlw-processed tlw-instance-9">
+  <li><strong>Related Chart Tools</strong>
+    <ul>
+      <li><a href="http://code.google.com/apis/chart/image/">Image Charts</a></li>
+      <li><a href="http://code.google.com/apis/chart/infographics/">Infographics</a> (Pins, Icons, etc)</li>
+    </ul>
+  </li>
+</ul>
+
+        <a class="hidden" href="http://code.google.com/apis/chart/interactive/docs/gallery/columnchart.html#gc-topnav-anchor">More Google Chart Tools resource links</a>
+      </div>
+
+      <div class="g-unit" id="gc-pagecontent" style="position: relative; ">
+        
+          <script type="text/javascript">CODESITE_docEarlyProcessing();</script>
+
+        
+        <h1 class="page_title">Visualization: Column Chart
+        </h1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="./Visualization  Column Chart - Google Chart Tools - Google Code_files/jsapi"></script><script src="./Visualization  Column Chart - Google Chart Tools - Google Code_files/format+en,default,corechart.I.js" type="text/javascript"></script>
+
+
+<div class="toc">
+  <ol>
+  <li><a href="http://code.google.com/apis/chart/interactive/docs/gallery/columnchart.html#Overview">Overview</a></li>
+  <li><a href="http://code.google.com/apis/chart/interactive/docs/gallery/columnchart.html#Example">Example</a></li>
+  <li><a href="http://code.google.com/apis/chart/interactive/docs/gallery/columnchart.html#Loading">Loading</a></li>
+  <li><a href="http://code.google.com/apis/chart/interactive/docs/gallery/columnchart.html#Data_Format">Data Format</a></li>
+  <li><a href="http://code.google.com/apis/chart/interactive/docs/gallery/columnchart.html#Configuration_Options">Configuration Options</a></li>
+  <li><a href="http://code.google.com/apis/chart/interactive/docs/gallery/columnchart.html#Methods">Methods</a></li>
+  <li><a href="http://code.google.com/apis/chart/interactive/docs/gallery/columnchart.html#Events">Events</a></li>
+  <li><a href="http://code.google.com/apis/chart/interactive/docs/gallery/columnchart.html#Data_Policy">Data Policy</a></li>
+  </ol>
+</div>
+
+<h2><a name="Overview" id="Overview"></a>Overview</h2>
+<p>
+A vertical bar chart that is rendered within the browser using
+  <a href="http://www.w3.org/Graphics/SVG/">SVG</a> or
+  <a href="http://en.wikipedia.org/wiki/Vector_Markup_Language">VML</a>.
+Displays tips when hovering over bars. For a horizontal version of this chart, see the <a href="http://code.google.com/apis/chart/interactive/docs/gallery/barchart.html">Bar
+Chart</a>.</p>
+<p>
+By: Google</p>
+<p class="note"><em>This is the new version of the column chart. <br>
+  For tips on how to migrate to the new charts, please see the <a href="http://code.google.com/apis/chart/interactive/docs/release_notes.html#migratingtocore">release
+  notes</a> page. <br>
+If you need to access the older version, you can find the documentation <a href="http://code.google.com/apis/chart/interactive/docs/gallery/columnchart_old.html">here</a>.</em></p>
+<h2><a name="Example" id="Example"></a>Example</h2>
+<div id="chart_div" style="width: 400px; height: 240px; position: relative; "><iframe name="Drawing_Frame_18550" id="Drawing_Frame_18550" width="400" height="240" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe></div>
+<div class="special"><p><strong>Code it yourself on
+    the <a href="http://code.google.com/apis/ajax/playground/?type=visualization#column_chart">Visualization
+    Playground</a></strong></p>
+</div>
+<script type="text/javascript">
+  function Timer(){this.t={};this.tick=function(a,b){this.t[a]=[(new Date).getTime(),b]};this.tick("start")}var loadTimer=new Timer;window.jstiming={Timer:Timer,load:loadTimer};if(window.external&&window.external.pageT)window.jstiming.pt=window.external.pageT;if(window.jstiming)window.jstiming.report=function(g,d){var c="";if(window.jstiming.pt){c+="&srt="+window.jstiming.pt;delete window.jstiming.pt}if(window.external&&window.external.tran)c+="&tran="+window.external.tran;var a=g.t,h=a.start;delete a.start;var i=[],e=[];for(var b in a){if(b.indexOf("_")==0)continue;var f=a[b][1];if(f)a[f][0]&&e.push(b+"."+(a[b][0]-a[f][0]));else h&&i.push(b+"."+(a[b][0]-h[0]))}if(d)for(var j in d)c+="&"+j+"="+d[j];(new Image).src=["http://csi.gstatic.com/csi?v=3","&s=gviz&action=",g.name,e.length?"&it="+e.join(",")+c:c,"&rt=",i.join(",")].join("")};
+</script>
+
+<script type="text/javascript">
+
+var csi_timer = new window.jstiming.Timer();
+csi_timer.name = 'docs_cc';
+
+google.setOnLoadCallback(drawChart);
+function drawChart() {
+
+  csi_timer.tick('load');
+
+  var data = new google.visualization.DataTable();
+  data.addColumn('string', 'Year');
+  data.addColumn('number', 'Sales');
+  data.addColumn('number', 'Expenses');
+  data.addRows(4);
+  data.setValue(0, 0, '2004');
+  data.setValue(0, 1, 1000);
+  data.setValue(0, 2, 400);
+  data.setValue(1, 0, '2005');
+  data.setValue(1, 1, 1170);
+  data.setValue(1, 2, 460);
+  data.setValue(2, 0, '2006');
+  data.setValue(2, 1, 660);
+  data.setValue(2, 2, 1120);
+  data.setValue(3, 0, '2007');
+  data.setValue(3, 1, 1030);
+  data.setValue(3, 2, 540);
+
+  csi_timer.tick('data');
+
+  var chart = new google.visualization.ColumnChart(document.getElementById('chart_div'));
+
+  csi_timer.tick('new');
+
+  chart.draw(data, {width: 400, height: 240, title: 'Company Performance', hAxis: {title: 'Year', titleTextStyle: {color: 'red'}}});
+
+  csi_timer.tick('draw');
+  window.jstiming.report(csi_timer);
+}
+</script>
+
+<pre class="prettyprint"><span class="tag">&lt;html&gt;</span><span class="pln"><br>&nbsp; </span><span class="tag">&lt;head&gt;</span><span class="pln"><br>&nbsp; &nbsp; </span><span class="tag">&lt;script</span><span class="pln"> </span><span class="atn">type</span><span class="pun">=</span><span class="atv">"text/javascript"</span><span class="pln"> </span><span class="atn">src</span><span class="pun">=</span><span class="atv">"https://www.google.com/jsapi"</span><span class="tag">&gt;&lt;/script&gt;</span><span class="pln"><br>&nbsp; &nbsp; </span><span class="tag">&lt;script</span><span class="pln"> </span><span class="atn">type</span><span class="pun">=</span><span class="atv">"text/javascript"</span><span class="tag">&gt;</span><span class="pln"><br>&nbsp; &nbsp; &nbsp; google</span><span class="pun">.</span><span class="pln">load</span><span class="pun">(</span><span class="str">"visualization"</span><span class="pun">,</span><span class="pln"> </span><span class="str">"1"</span><span class="pun">,</span><span class="pln"> </span><span class="pun">{</span><span class="pln">packages</span><span class="pun">:[</span><span class="str">"corechart"</span><span class="pun">]});</span><span class="pln"><br>&nbsp; &nbsp; &nbsp; google</span><span class="pun">.</span><span class="pln">setOnLoadCallback</span><span class="pun">(</span><span class="pln">drawChart</span><span class="pun">);</span><span class="pln"><br>&nbsp; &nbsp; &nbsp; </span><span class="kwd">function</span><span class="pln"> drawChart</span><span class="pun">()</span><span class="pln"> </span><span class="pun">{</span><span class="pln"><br>&nbsp; &nbsp; &nbsp; &nbsp; </span><span class="kwd">var</span><span class="pln"> data </span><span class="pun">=</span><span class="pln"> </span><span class="kwd">new</span><span class="pln"> google</span><span class="pun">.</span><span class="pln">visualization</span><span class="pun">.</span><span class="typ">DataTable</span><span class="pun">();</span><span class="pln"><br>&nbsp; &nbsp; &nbsp; &nbsp; data</span><span class="pun">.</span><span class="pln">addColumn</span><span class="pun">(</span><span class="str">'string'</span><span class="pun">,</span><span class="pln"> </span><span class="str">'Year'</span><span class="pun">);</span><span class="pln"><br>&nbsp; &nbsp; &nbsp; &nbsp; data</span><span class="pun">.</span><span class="pln">addColumn</span><span class="pun">(</span><span class="str">'number'</span><span class="pun">,</span><span class="pln"> </span><span class="str">'Sales'</span><span class="pun">);</span><span class="pln"><br>&nbsp; &nbsp; &nbsp; &nbsp; data</span><span class="pun">.</span><span class="pln">addColumn</span><span class="pun">(</span><span class="str">'number'</span><span class="pun">,</span><span class="pln"> </span><span class="str">'Expenses'</span><span class="pun">);</span><span class="pln"><br>&nbsp; &nbsp; &nbsp; &nbsp; data</span><span class="pun">.</span><span class="pln">addRows</span><span class="pun">(</span><span class="lit">4</span><span class="pun">);</span><span class="pln"><br>&nbsp; &nbsp; &nbsp; &nbsp; data</span><span class="pun">.</span><span class="pln">setValue</span><span class="pun">(</span><span class="lit">0</span><span class="pun">,</span><span class="pln"> </span><span class="lit">0</span><span class="pun">,</span><span class="pln"> </span><span class="str">'2004'</span><span class="pun">);</span><span class="pln"><br>&nbsp; &nbsp; &nbsp; &nbsp; data</span><span class="pun">.</span><span class="pln">setValue</span><span class="pun">(</span><span class="lit">0</span><span class="pun">,</span><span class="pln"> </span><span class="lit">1</span><span class="pun">,</span><span class="pln"> </span><span class="lit">1000</span><span class="pun">);</span><span class="pln"><br>&nbsp; &nbsp; &nbsp; &nbsp; data</span><span class="pun">.</span><span class="pln">setValue</span><span class="pun">(</span><span class="lit">0</span><span class="pun">,</span><span class="pln"> </span><span class="lit">2</span><span class="pun">,</span><span class="pln"> </span><span class="lit">400</span><span class="pun">);</span><span class="pln"><br>&nbsp; &nbsp; &nbsp; &nbsp; data</span><span class="pun">.</span><span class="pln">setValue</span><span class="pun">(</span><span class="lit">1</span><span class="pun">,</span><span class="pln"> </span><span class="lit">0</span><span class="pun">,</span><span class="pln"> </span><span class="str">'2005'</span><span class="pun">);</span><span class="pln"><br>&nbsp; &nbsp; &nbsp; &nbsp; data</span><span class="pun">.</span><span class="pln">setValue</span><span class="pun">(</span><span class="lit">1</span><span class="pun">,</span><span class="pln"> </span><span class="lit">1</span><span class="pun">,</span><span class="pln"> </span><span class="lit">1170</span><span class="pun">);</span><span class="pln"><br>&nbsp; &nbsp; &nbsp; &nbsp; data</span><span class="pun">.</span><span class="pln">setValue</span><span class="pun">(</span><span class="lit">1</span><span class="pun">,</span><span class="pln"> </span><span class="lit">2</span><span class="pun">,</span><span class="pln"> </span><span class="lit">460</span><span class="pun">);</span><span class="pln"><br>&nbsp; &nbsp; &nbsp; &nbsp; data</span><span class="pun">.</span><span class="pln">setValue</span><span class="pun">(</span><span class="lit">2</span><span class="pun">,</span><span class="pln"> </span><span class="lit">0</span><span class="pun">,</span><span class="pln"> </span><span class="str">'2006'</span><span class="pun">);</span><span class="pln"><br>&nbsp; &nbsp; &nbsp; &nbsp; data</span><span class="pun">.</span><span class="pln">setValue</span><span class="pun">(</span><span class="lit">2</span><span class="pun">,</span><span class="pln"> </span><span class="lit">1</span><span class="pun">,</span><span class="pln"> </span><span class="lit">660</span><span class="pun">);</span><span class="pln"><br>&nbsp; &nbsp; &nbsp; &nbsp; data</span><span class="pun">.</span><span class="pln">setValue</span><span class="pun">(</span><span class="lit">2</span><span class="pun">,</span><span class="pln"> </span><span class="lit">2</span><span class="pun">,</span><span class="pln"> </span><span class="lit">1120</span><span class="pun">);</span><span class="pln"><br>&nbsp; &nbsp; &nbsp; &nbsp; data</span><span class="pun">.</span><span class="pln">setValue</span><span class="pun">(</span><span class="lit">3</span><span class="pun">,</span><span class="pln"> </span><span class="lit">0</span><span class="pun">,</span><span class="pln"> </span><span class="str">'2007'</span><span class="pun">);</span><span class="pln"><br>&nbsp; &nbsp; &nbsp; &nbsp; data</span><span class="pun">.</span><span class="pln">setValue</span><span class="pun">(</span><span class="lit">3</span><span class="pun">,</span><span class="pln"> </span><span class="lit">1</span><span class="pun">,</span><span class="pln"> </span><span class="lit">1030</span><span class="pun">);</span><span class="pln"><br>&nbsp; &nbsp; &nbsp; &nbsp; data</span><span class="pun">.</span><span class="pln">setValue</span><span class="pun">(</span><span class="lit">3</span><span class="pun">,</span><span class="pln"> </span><span class="lit">2</span><span class="pun">,</span><span class="pln"> </span><span class="lit">540</span><span class="pun">);</span><span class="pln"><br><br>&nbsp; &nbsp; &nbsp; &nbsp; </span><span class="kwd">var</span><span class="pln"> chart </span><span class="pun">=</span><span class="pln"> </span><span class="kwd">new</span><span class="pln"> google</span><span class="pun">.</span><span class="pln">visualization</span><span class="pun">.</span><span class="typ">ColumnChart</span><span class="pun">(</span><span class="pln">document</span><span class="pun">.</span><span class="pln">getElementById</span><span class="pun">(</span><span class="str">'chart_div'</span><span class="pun">));</span><span class="pln"><br>&nbsp; &nbsp; &nbsp; &nbsp; chart</span><span class="pun">.</span><span class="pln">draw</span><span class="pun">(</span><span class="pln">data</span><span class="pun">,</span><span class="pln"> </span><span class="pun">{</span><span class="pln">width</span><span class="pun">:</span><span class="pln"> </span><span class="lit">400</span><span class="pun">,</span><span class="pln"> height</span><span class="pun">:</span><span class="pln"> </span><span class="lit">240</span><span class="pun">,</span><span class="pln"> title</span><span class="pun">:</span><span class="pln"> </span><span class="str">'Company Performance'</span><span class="pun">,</span><span class="pln"><br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; hAxis</span><span class="pun">:</span><span class="pln"> </span><span class="pun">{</span><span class="pln">title</span><span class="pun">:</span><span class="pln"> </span><span class="str">'Year'</span><span class="pun">,</span><span class="pln"> titleTextStyle</span><span class="pun">:</span><span class="pln"> </span><span class="pun">{</span><span class="pln">color</span><span class="pun">:</span><span class="pln"> </span><span class="str">'red'</span><span class="pun">}}</span><span class="pln"><br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="pun">});</span><span class="pln"><br>&nbsp; &nbsp; &nbsp; </span><span class="pun">}</span><span class="pln"><br>&nbsp; &nbsp; </span><span class="tag">&lt;/script&gt;</span><span class="pln"><br>&nbsp; </span><span class="tag">&lt;/head&gt;</span><span class="pln"><br><br>&nbsp; </span><span class="tag">&lt;body&gt;</span><span class="pln"><br>&nbsp; &nbsp; </span><span class="tag">&lt;div</span><span class="pln"> </span><span class="atn">id</span><span class="pun">=</span><span class="atv">"chart_div"</span><span class="tag">&gt;&lt;/div&gt;</span><span class="pln"><br>&nbsp; </span><span class="tag">&lt;/body&gt;</span><span class="pln"><br></span><span class="tag">&lt;/html&gt;</span></pre>
+<h2><a name="Loading" id="Loading"></a>Loading</h2>
+<p>
+The <code>google.load</code> package name is <code>"corechart"</code>
+</p>
+
+<pre class="prettyprint"><span class="pln">&nbsp; google</span><span class="pun">.</span><span class="pln">load</span><span class="pun">(</span><span class="str">"visualization"</span><span class="pun">,</span><span class="pln"> </span><span class="str">"1"</span><span class="pun">,</span><span class="pln"> </span><span class="pun">{</span><span class="pln">packages</span><span class="pun">:</span><span class="pln"> </span><span class="pun">[</span><span class="str">"corechart"</span><span class="pun">]});</span></pre>
+
+<p>
+The visualization's class name is <code>google.visualization.ColumnChart</code>
+</p>
+
+<pre class="prettyprint"><span class="pln">&nbsp; </span><span class="kwd">var</span><span class="pln"> visualization </span><span class="pun">=</span><span class="pln"> </span><span class="kwd">new</span><span class="pln"> google</span><span class="pun">.</span><span class="pln">visualization</span><span class="pun">.</span><span class="typ">ColumnChart</span><span class="pun">(</span><span class="pln">container</span><span class="pun">);</span></pre>
+<p class="warning"><strong>Warning:</strong> You cannot load both <code>columnchart</code> and <code>corechart</code> packages at the same time on the same page.</p>
+
+<h2><a name="Data_Format" id="Data_Format"></a>Data Format</h2>
+<p>Each row in the table represents a group of adjacent bars.</p>
+<p>The first column in the table should be a string, and represents the label of
+  that group of bars. Any number of columns can follow, all numeric, each representing
+  the bars with the same color and relative position in each group.</p>
+<p>The value at a given row and column controls the height of the single bar represented
+  by this row and column.</p>
+<h2><a name="Configuration_Options" id="Configuration_Options"></a>Configuration Options</h2>
+<table>
+  <tbody><tr>
+    <th>Name</th>
+    <th>Type</th>
+    <th>Default</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+  <td>axisTitlesPosition</td>
+  <td>string</td>
+  <td>'out'</td>
+  <td><p>Where to place the axis titles, compared to the chart area. Supported values:</p>
+    <ul>
+      <li>in - Draw the axis titles inside the the chart area.</li>
+      <li>out - Draw the axis titles outside the chart area.</li>
+      <li>none - Omit the axis titles.</li>
+    </ul></td>
+</tr>
+  <tr>
+  <td>backgroundColor</td>
+  <td>string or object</td>
+  <td>'white'</td>
+  <td>The background color for the main area of the chart.
+    Can be either a simple HTML color string, for example: <code>'red'</code> or <code>'#00cc00'</code>, or an object with the following properties.</td>
+</tr>
+  <tr>
+  <td>backgroundColor.stroke</td>
+  <td>string</td>
+  <td>'#666'</td>
+  <td>The color of the chart border, as an HTML color string.</td>
+</tr>
+  <tr>
+  <td>backgroundColor.strokeWidth</td>
+  <td>number</td>
+  <td>0</td>
+  <td>The border width, in pixels.</td>
+</tr>
+  <tr>
+  <td>backgroundColor.fill</td>
+  <td>string</td>
+  <td>'white'</td>
+  <td>The chart fill color, as an HTML color string.</td>
+</tr>
+  <tr>
+  <td>chartArea</td>
+  <td>Object</td>
+  <td>null</td>
+  <td>An object with members to configure the placement and size of the chart area (where the chart itself is drawn, excluding axis and legends). Two formats are supported: a number, or a number followed by %. A simple number is a value in pixels; a number followed by % is a percentage. Example: <code>chartArea:{left:20,top:0,width:"50%",height:"75%"}</code></td>
+</tr>
+  <tr>
+  <td>chartArea.left</td>
+  <td>number or string</td>
+  <td>auto</td>
+  <td>How far to draw the chart from the left border.</td>
+</tr>
+  <tr>
+  <td>chartArea.top</td>
+  <td>number or string</td>
+  <td>auto</td>
+  <td>How far to draw the chart from the top border.</td>
+</tr>
+  <tr>
+  <td>chartArea.width</td>
+  <td>number or string</td>
+  <td>auto</td>
+  <td>Chart area width.</td>
+</tr>
+  <tr>
+  <td>chartArea.height</td>
+  <td>number or string</td>
+  <td>auto</td>
+  <td>Chart area height.</td>
+</tr>
+  <tr>
+  <td>colors</td>
+  <td>Array of strings</td>
+  <td>default colors</td>
+  <td>The colors to use for the chart elements.
+    An array of strings, where each element is an HTML color string, for example: <code>colors:['red','#004411']</code>.</td>
+</tr>
+  <tr>
+  <td>enableInteractivity</td>
+  <td>boolean</td>
+  <td>true</td>
+  <td>Whether the chart throws user-based events or reacts to user interaction. If false, the chart will not throw 'select' or other interaction-based events (but <em>will</em> throw ready or error events), and will not display hovertext or otherwise change depending on user input.</td>
+</tr>
+  <tr>
+  <td>fontSize</td>
+  <td>number</td>
+  <td>automatic</td>
+  <td>The default font size, in pixels, of all text in the chart. You can override
+    this using properties for specific chart elements.</td>
+</tr>
+  <tr>
+  <td>fontName</td>
+  <td>string</td>
+  <td>'Arial'</td>
+  <td>The default font face for all text in the chart. You can override this using
+    properties for specific chart elements.</td>
+</tr>
+  <tr>
+  <td>hAxis</td>
+  <td>Object</td>
+  <td>null</td>
+  <td><p>An object with members to configure various horizontal axis
+      elements. To specify properties of this object, you can use object literal
+      notation, as shown here:</p>
+    <pre> {title: 'Hello',  titleTextStyle: {color: '#FF0000'}}</pre></td>
+</tr>
+  <tr>
+  <td>hAxis.direction</td>
+  <td>1 or -1</td>
+  <td>1</td>
+  <td>The direction in which the values along the horizontal axis grow. Specify <code>-1</code> to reverse the order of the values.</td>
+</tr>
+  <tr>
+  <td>hAxis.textPosition</td>
+  <td>string</td>
+  <td>'out'</td>
+  <td><p>Position of the horizontal axis text, relative to the chart area. Supported values: 'out', 'in', 'none'.</p></td>
+</tr>
+  <tr>
+  <td>hAxis.textStyle</td>
+  <td>Object</td>
+  <td><code>{color: 'black', fontName: &lt;global-font-name&gt;, fontSize: &lt;global-font-size&gt;}</code></td>
+  <td><p>An object that specifies the horizontal axis text style. The object has this format:</p>
+    <pre> {color: &lt;string&gt;, fontName: &lt;string&gt;, fontSize: &lt;number&gt;}</pre>
+    <p>The <code>color</code> can be any HTML color string, for example: <code>'red'</code> or <code>'#00cc00'</code>.
+      Also see <code>fontName</code> and <code>fontSize</code>.</p></td>
+</tr>
+  <tr>
+  <td>hAxis.title</td>
+  <td>string</td>
+  <td>null</td>
+  <td><code>hAxis</code> property that specifies the title of the horizontal axis.</td>
+</tr>
+  <tr>
+  <td>hAxis.titleTextStyle</td>
+  <td>Object</td>
+  <td><code>{color: 'black', fontName: &lt;global-font-name&gt;, fontSize: &lt;global-font-size&gt;}</code></td>
+  <td><p>An object that specifies the horizontal axis title text style. The object has this format:</p>
+    <pre> {color: &lt;string&gt;, fontName: &lt;string&gt;, fontSize: &lt;number&gt;}</pre>
+    <p>The <code>color</code> can be any HTML color string, for example: <code>'red'</code> or <code>'#00cc00'</code>.
+      Also see <code>fontName</code> and <code>fontSize</code>.</p></td>
+</tr>
+  <tr>
+  <td>hAxis.slantedText</td>
+  <td>boolean</td>
+  <td>automatic</td>
+  <td>If true, draw the horizontal axis text at an angle, to help fit more text along
+    the axis; if false, draw horizontal axis text upright. Default behavior is to
+    slant text if it cannot all fit when drawn upright. Notice that this option is available
+    only when the <code>hAxis.textPosition</code> is set to 'out' (which is the default).</td>
+</tr>
+  <tr>
+  <td>hAxis.slantedTextAngle</td>
+  <td>number, 1—90</td>
+  <td>30</td>
+  <td>The angle of the horizontal axis text, if it's drawn slanted. Ignored if <code>hAxis.slantedText</code> is <code>false</code>, or is in auto mode,
+    and the chart decided to draw the text horizontally.</td>
+</tr>
+  <tr>
+  <td>hAxis.maxAlternation</td>
+  <td>number</td>
+  <td>2</td>
+  <td>Maximum number of levels of horizontal axis text. If axis text labels become too
+    crowded, the server might shift neighboring labels up or down in order to fit
+    labels closer together. This value specifies the most number of levels to use;
+    the server can use fewer levels, if labels can fit without overlapping.</td>
+</tr>
+  <tr>
+  <td>hAxis.showTextEvery</td>
+  <td>number</td>
+  <td>automatic</td>
+  <td>How many horizontal axis labels to show, where 1 means show every label, 2 means
+    show every other label, and so on. Default is to try to show as many labels as
+    possible without overlapping.</td>
+</tr>
+  <tr>
+  <td>height</td>
+  <td>number</td>
+  <td>height of the containing element</td>
+  <td>Height of the chart, in pixels.</td>
+</tr>
+  <tr>
+  <td>isStacked</td>
+  <td>boolean</td>
+  <td>false</td>
+  <td>If set to true, series elements are stacked.</td>
+</tr>
+  <tr>
+  <td>legend</td>
+  <td>string</td>
+  <td>'right'</td>
+  <td>Position of the legend. Can be one of the following:
+    <ul>
+      <li>'right' - To the right of the chart.</li>
+      <li>'top' - Above the chart.</li>
+      <li>'bottom' - Below the chart.</li>
+      <li>'in' - Inside the chart, by the top left corner.</li>
+      <li>'none' - No legend is displayed.</li>
+    </ul></td>
+</tr>
+  <tr>
+  <td>legendTextStyle</td>
+  <td>Object</td>
+  <td><code>{color: 'black', fontName: &lt;global-font-name&gt;, fontSize: &lt;global-font-size&gt;}</code></td>
+  <td><p>An object that specifies the legend text style. The object has this format:</p>
+    <pre> {color: &lt;string&gt;, fontName: &lt;string&gt;, fontSize: &lt;number&gt;}</pre>
+    <p>The <code>color</code> can be any HTML color string, for example: <code>'red'</code> or <code>'#00cc00'</code>.
+      Also see <code>fontName</code> and <code>fontSize</code>.</p></td>
+</tr>
+  <tr>
+  <td>reverseCategories</td>
+  <td>boolean</td>
+  <td>false</td>
+  <td>If set to true, will draw series from right to left. The default is to draw
+    left-to-right.</td>
+</tr>
+  
+  
+  <tr>
+  <td>series</td>
+  <td>Array of objects, or object with nested objects</td>
+  <td>{}</td>
+  <td><p>An array of objects, each describing the format of the corresponding series in the chart. To use default values for a series, specify an empty object {}. If a series or a value is not specified, the global value will be used. Each object supports the following properties:</p>
+    <ul>
+        <li><code>color</code> - The color to use for this series. Specify a valid HTML color string.</li>
+        <li><code>targetAxisIndex</code> - Which axis to assign this series to, where 0 is the default axis, and 1 is the opposite axis. Default value is 0; set to 1 to define a chart where different series are rendered against different axes. At least one series much be allocated to the default axis. You can define a different scale for different axes.</li>
+        <li><code>visibleInLegend</code> - A boolean value, where true means that the series should have a legend entry, and false means that it should not. Default is true.</li>
+      </ul>
+    <p>You can specify either an array of objects, each of which applies to the
+      series in the order given, or you can specify an object where each child
+      has a numeric key indicating which series it applies to. For example, the
+      following two declarations are identical, and declare the first series as
+      black and absent from the legend, and the fourth as red and absent from the legend:</p>
+    <pre>series: [{color: 'black', visibleInLegend: false},{}, {}, {color: 'red', visibleInLegend: false}]
+series: {0:{color: 'black', visibleInLegend: false}, 3:{color: 'red', visibleInLegend: false}}</pre>
+  </td>
+</tr>
+  
+  <tr>
+  <td>title</td>
+  <td>string</td>
+  <td>no title</td>
+  <td>Text to display above the chart.</td>
+</tr>
+  <tr>
+  <td>titlePosition</td>
+  <td>string</td>
+  <td>'out'</td>
+  <td><p>Where to place the chart title, compared to the chart area. Supported values:</p>
+    <ul>
+      <li>in - Draw the title inside the chart area.</li>
+      <li>out - Draw the title outside the chart area.</li>
+      <li>none - Omit the title.</li>
+    </ul></td>
+</tr>
+  <tr>
+  <td>titleTextStyle</td>
+  <td>Object</td>
+  <td><code>{color: 'black', fontName: &lt;global-font-name&gt;, fontSize: &lt;global-font-size&gt;}</code></td>
+  <td><p>An object that specifies the title text style. The object has this format:</p>
+    <pre> {color: &lt;string&gt;, fontName: &lt;string&gt;, fontSize: &lt;number&gt;}</pre>
+    <p>The <code>color</code> can be any HTML color string, for example: <code>'red'</code> or <code>'#00cc00'</code>.
+      Also see <code>fontName</code> and <code>fontSize</code>.</p></td>
+</tr>
+  <tr>
+  <td>tooltipTextStyle</td>
+  <td>Object</td>
+  <td><code>{color: 'black', fontName: &lt;global-font-name&gt;, fontSize: &lt;global-font-size&gt;}</code></td>
+  <td><p>An object that specifies the tooltip text style. The object has this format:</p>
+    <pre> {color: &lt;string&gt;, fontName: &lt;string&gt;, fontSize: &lt;number&gt;}</pre>
+    <p>The <code>color</code> can be any HTML color string, for example: <code>'red'</code> or <code>'#00cc00'</code>.
+      Also see <code>fontName</code> and <code>fontSize</code>.</p></td>
+</tr>
+  <tr>
+  <td>vAxes</td>
+  <td>Array of object, or object with child objects</td>
+  <td>null</td>
+  <td><p>Specifies properties for individual vertical axes, if the chart has
+    multiple vertical axes. Each child object is a <code>vAxis</code> object,
+    and can contain all the properties supported by <code>vAxis</code>. These
+    property values override any global settings for the same property.</p>
+    <p>To specify a chart with multiple vertical axes, first define a new axis
+      using <code>series.targetAxisIndex</code>, then configure the axis using
+      <code>vAxes</code>. The following example assigns series 2 to the right
+      axis and specifies a custom title and text style for it:</p>
+    <p><code>series:{2:{targetAxisIndex:1}}, vAxes:{1:{title:'Losses',textStyle:{color: 'red'}}}</code></p>
+    <p>This property can be either an object or an array: the object is a
+      collection of objects, each with a numeric label that specifies the axis
+      that it defines--this is the format shown above; the array is an array of
+      objects, one per axis. For example, the following array-style notation is
+      identical to the <code>vAxis</code> object shown above:</p>
+    <pre>vAxes:[
+{}, // Nothing specified for axis 0
+{title:'Losses',textStyle:{color: 'red'}} // Axis 1
+]</pre></td>
+</tr>
+  <tr>
+  <td>vAxis</td>
+  <td>Object</td>
+  <td>null</td>
+  <td><p>An object with members to configure various vertical axis elements. To specify properties of this object, you can use object literal notation, as
+      shown here:</p>
+    <pre> {title: 'Hello', titleTextStyle: {color: '#FF0000'}}</pre></td>
+</tr>
+  <tr>
+  <td>vAxis.baseline</td>
+  <td>number</td>
+  <td>automatic</td>
+  <td><code>vAxis</code> property that specifies the baseline for the vertical axis.
+    If the baseline is smaller than the highest grid line or smaller than the
+    lowest grid line, it will be rounded to the closest gridline. </td>
+</tr>
+  <tr>
+  <td>vAxis.baselineColor</td>
+  <td>number</td>
+  <td>'black'</td>
+  <td>Specifies the color of the baseline for the vertical
+    axis. Can be any HTML color string, for example: <code>'red'</code> or <code>'#00cc00'</code>.</td>
+</tr>
+  <tr>
+  <td>vAxis.direction</td>
+  <td>1 or -1</td>
+  <td>1</td>
+  <td>The direction in which the values along the vertical axis grow. Specify <code>-1</code> to reverse the order of the values.</td>
+</tr>
+  <tr>
+  <td>vAxis.format</td>
+  <td>string</td>
+  <td>auto</td>
+  <td>A format string for numeric axis labels. This is a subset of the <a href="http://icu-project.org/apiref/icu4c/classDecimalFormat.html#_details">ICU pattern set</a>. For instance, <code>{format:'#,###%'}</code> will display values "1,000%", "750%", and "50%" for values 10, 7.5, and 0.5.</td>
+</tr>
+  <tr>
+  <td>vAxis.gridlineColor</td>
+  <td>string</td>
+  <td>'#CCC'</td>
+  <td>The color of the vertical gridlines inside the chart area. Specify a valid HTML color string.</td>
+</tr>
+  <tr>
+  <td>vAxis.logScale</td>
+  <td>boolean</td>
+  <td>false</td>
+  <td>If true, makes the vertical axis a logarithmic scale
+    Note: All values must be positive.</td>
+</tr>
+  <tr>
+  <td>vAxis.textPosition</td>
+  <td>string</td>
+  <td>'out'</td>
+  <td><p>Position of the vertical axis text, relative to the chart area. Supported values: 'out', 'in', 'none'.</p></td>
+</tr>
+  <tr>
+  <td>vAxis.textStyle</td>
+  <td>Object</td>
+  <td><code>{color: 'black', fontName: &lt;global-font-name&gt;, fontSize: &lt;global-font-size&gt;}</code></td>
+  <td><p>An object that specifies the vertical axis text style. The object has this format:</p>
+    <pre> {color: &lt;string&gt;, fontName: &lt;string&gt;, fontSize: &lt;number&gt;}</pre>
+    <p>The <code>color</code> can be any HTML color string, for example: <code>'red'</code> or <code>'#00cc00'</code>.
+      Also see <code>fontName</code> and <code>fontSize</code>.</p></td>
+</tr>
+  <tr>
+  <td>vAxis.title</td>
+  <td>string</td>
+  <td>no title</td>
+  <td><code>vAxis</code> property that specifies a title for the vertical axis.</td>
+</tr>
+  <tr>
+  <td>vAxis.titleTextStyle</td>
+  <td>Object</td>
+  <td><code>{color: 'black', fontName: &lt;global-font-name&gt;, fontSize: &lt;global-font-size&gt;}</code></td>
+  <td><p>An object that specifies the vertical axis title text style. The object has this format:</p>
+    <pre> {color: &lt;string&gt;, fontName: &lt;string&gt;, fontSize: &lt;number&gt;}</pre>
+    <p>The <code>color</code> can be any HTML color string, for example: <code>'red'</code> or <code>'#00cc00'</code>.
+      Also see <code>fontName</code> and <code>fontSize</code>.</p></td>
+</tr>
+  <tr>
+  <td>vAxis.maxValue</td>
+  <td>number</td>
+  <td>automatic</td>
+  <td><code>vAxis</code> property that specifies the highest vertical axis grid
+    line. The actual grid line will be the greater of two values: the <code>maxValue</code> option
+    value, or the highest data value, rounded up to the next higher grid mark. </td>
+</tr>
+  <tr>
+  <td>vAxis.minValue</td>
+  <td>number</td>
+  <td>automatic</td>
+  <td><code>vAxis</code> property that specifies the lowest vertical axis grid line.
+    The actual grid line will be the lower of two values: the <code>minValue</code> option
+    value, or the lowest data value, rounded down to the next lower grid mark. </td>
+</tr>
+  <tr>
+  <td>vAxis.viewWindowMode</td>
+  <td>string</td>
+  <td>'pretty' if <code>vAxis.viewWindow</code> is null,
+    'explicit' otherwise</td>
+  <td><p>Specifies how to scale the vertical axis to render the values within
+    the chart area. The following string values are supported:</p>
+    <ul>
+      <li>'pretty' - Scale the vertical values so that the maximum and minimum
+        data values are rendered a bit inside the top and bottom of the chart
+        area.</li>
+      <li>'maximized' - Scale the vertical values so that the maximum and
+        minimum data values touch the top and bottom of the chart area.</li>
+      <li>'explicit' - Specify the top and bottom scale values of the chart
+        area. Data values outside these values will be cropped. You must specify
+        a <code>vAxis.viewWindow</code> object describing the maximum and minimum
+        values to show.</li>
+    </ul></td>
+</tr>
+  <tr>
+  <td>vAxis.viewWindow</td>
+  <td>Object</td>
+  <td>null</td>
+  <td>Specifies the maximum and minimum data values to show on the vertical axis.
+    Present only if <code>vAxis.viewWindowMode='explicit'</code></td>
+</tr>
+  <tr>
+  <td>vAxis.viewWindow.max</td>
+  <td>number</td>
+  <td>0</td>
+  <td>The maximum vertical data value to render.</td>
+</tr>
+  <tr>
+  <td>vAxis.viewWindow.min</td>
+  <td>number</td>
+  <td>0</td>
+  <td>The minimum vertical data value to render.</td>
+</tr>
+  <tr>
+  <td>width</td>
+  <td>number</td>
+  <td>width of the containing element</td>
+  <td>Width of the chart, in pixels.</td>
+</tr>
+</tbody></table>
+<h2><a name="Methods" id="Methods"></a>Methods</h2>
+<table>
+  <tbody><tr>
+    <th>Method</th>
+    <th>Return Type</th>
+    <th>Description</th>
+  </tr>
+  <tr>
+    <td><code>draw(data, options)</code></td>
+    <td>none</td>
+    <td>Draws the chart.</td>
+  </tr>
+  <tr>
+    <td><code>getSelection()</code></td>
+    <td>Array of selection elements</td>
+    <td>Standard <a href="http://code.google.com/apis/chart/interactive/docs/reference.html#visgetselection"><code>getSelection()</code></a> implementation.
+      Selected elements are column and cell elements. Only one column or cell can
+      be selected at a time by the user.</td>
+  </tr>
+  <tr>
+    <td><code>setSelection()</code></td>
+    <td>none</td>
+    <td>Standard <a href="http://code.google.com/apis/chart/interactive/docs/reference.html#vissetselection"><code>setSelection()</code></a> implementation, but supports selection
+      of only one element. Treats every selection entry as a column or cell selection.
+      Note that the label column cannot be selected.</td>
+  </tr>
+</tbody></table>
+
+<h2><a name="Events" id="Events"></a>Events</h2>
+<table>
+  <tbody><tr>
+    <th>Name</th>
+    <th>Description</th>
+    <th>Properties</th>
+  </tr>
+  <tr>
+    <td><code>error</code></td>
+    <td>Fired when an error occurs when attempting to render the chart.</td>
+    <td>id, message</td>
+  </tr>
+  <tr>
+    <td><code>onmouseover</code></td>
+    <td>Fired when the user mouses over a bar, and passes in the row and column
+      indexes of the corresponding cell.</td>
+    <td>row, column</td>
+  </tr>
+  <tr>
+    <td><code>onmouseout</code></td>
+    <td>Fired when the user mouses away from a bar, and passes in the row and column
+      indexes of the corresponding cell.</td>
+    <td>row, column</td>
+  </tr>
+
+  <tr>
+    <td><code>ready</code></td>
+    <td>The chart is ready for external method calls. If you want to interact with
+      the chart, and call methods after you draw it, you should set up a listener
+      for this event <i>before</i> you call the <code>draw</code> method, and call
+      them only after the event was fired</td>
+    <td>None</td>
+  </tr>
+  <tr>
+    <td><code>select</code></td>
+    <td>Fired when the user clicks a bar or legend. When a bar is selected, the corresponding
+      cell in the data table is selected; when a legend is selected, the corresponding
+    column in the data table is selected. To learn what has been selected, call <a href="http://code.google.com/apis/chart/interactive/docs/gallery/columnchart.html#Methods"><code>getSelection()</code></a>.</td>
+    <td>None</td>
+  </tr>
+</tbody></table>
+<h2><a name="Data_Policy" id="Data_Policy"></a>Data Policy</h2>
+<p>
+All code and data are processed and rendered in the browser. No data is sent to any server.
+</p>
+
+      <div id="gc-collapsible" style="height: 6271px; "></div></div><!-- end gc-pagecontent -->
+    </div><!-- end gooey wrapper -->
+
+    </div> <!-- end codesite content -->
+
+
+<div id="gc-footer" dir="ltr">
+  <div class="text">
+    
+    ©2011 Google -
+    <a href="http://code.google.com/">Code Home</a> -
+    <a href="http://code.google.com/terms.html">Site Terms of Service</a> -
+    <a href="http://code.google.com/privacy.html">Privacy Policy</a> -
+    <a href="http://code.google.com/more/">Site Directory</a>
+    <br> <br>
+    Google Code offered in:
+    <a href="http://code.google.com/intl/en/">English</a> -
+    <a href="http://code.google.com/intl/es/">Español</a> -
+    <a href="http://code.google.com/intl/ja/">日本語</a> -
+    <a href="http://code.google.com/intl/ko/">한국어</a> -
+    <a href="http://code.google.com/intl/pt-BR/">Português</a> -
+    <a href="http://code.google.com/intl/ru/">Pусский</a> -
+    <a href="http://code.google.com/intl/zh-CN/">中文(简体)</a> -
+    <a href="http://code.google.com/intl/zh-TW/">中文(繁體)</a>
+  </div>
+</div><!-- end gc-footer -->
+
+</div><!-- end gc-container -->
+
+<script type="text/javascript">CODESITE_CSITimer['load'].tick('ats');</script>
+<script src="./Visualization  Column Chart - Google Chart Tools - Google Code_files/codesite_tail.pack.04102009.js" type="text/javascript"></script>
+<script type="text/javascript" src="./Visualization  Column Chart - Google Chart Tools - Google Code_files/plusone.js"></script>
+
+
+
+
+
+  
+
+
+
+<div class="menuDiv instance0" id="menuDiv-projects-dropdown" style="position: absolute; display: none; top: 22px; left: 1039px; "><div class="menuCategory controls first"><a class="menuItem" style="display: block; " href="https://www.google.com/accounts/Login?continue=http%3A%2F%2Fcode.google.com%2Fapis%2Fchart%2Finteractive%2Fdocs%2Fgallery%2Fcolumnchart.html&amp;followup=http%3A%2F%2Fcode.google.com%2Fapis%2Fchart%2Finteractive%2Fdocs%2Fgallery%2Fcolumnchart.html">Sign in to see your favorites</a><hr class="menuSeparator"><a class="menuItem" style="display: block; " href="http://code.google.com/more/">Find developer products...</a><a class="menuItem" style="display: block; " href="http://code.google.com/hosting/">Find open source projects...</a></div></div><div class="menuDiv instance1" id="menuDiv-lang-dropdown" style="position: absolute; display: none; top: 22px; left: 1133px; width: 175px; "><div class="menuCategory default first"><a class="menuItem" style="display: block; " href="http://code.google.com/intl/en/apis/chart/interactive/docs/gallery/columnchart.html">English</a><a class="menuItem" style="display: block; " href="http://code.google.com/intl/es/apis/chart/interactive/docs/gallery/columnchart.html">Español</a><a class="menuItem" style="display: block; " href="http://code.google.com/intl/ja/apis/chart/interactive/docs/gallery/columnchart.html">日本語</a><a class="menuItem" style="display: block; " href="http://code.google.com/intl/ko/apis/chart/interactive/docs/gallery/columnchart.html">한국어</a><a class="menuItem" style="display: block; " href="http://code.google.com/intl/pt-BR/apis/chart/interactive/docs/gallery/columnchart.html">Português (Brasil)</a><a class="menuItem" style="display: block; " href="http://code.google.com/intl/ru/apis/chart/interactive/docs/gallery/columnchart.html">Pусский</a><a class="menuItem" style="display: block; " href="http://code.google.com/intl/zh-CN/apis/chart/interactive/docs/gallery/columnchart.html">中文 (简体)</a><a class="menuItem" style="display: block; " href="http://code.google.com/intl/zh-TW/apis/chart/interactive/docs/gallery/columnchart.html">中文 (繁體)</a></div></div><div id="gc-collapsible-arrow"></div><div id="cs-searchresults" style="left: 181px; top: 76px; width: 345px; "><div id="cs-recommended">Suggestions</div><div id="searchResult1"></div><div id="searchResult2"></div><div id="searchResult3"></div><div id="searchResult4"></div><div id="searchResult5"></div><div id="searchResult6"></div><div id="searchResult7"></div></div></body></html>

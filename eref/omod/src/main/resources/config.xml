@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<module configVersion="1.2">
+	
+    <!-- Module Properties -->
+	<id>eref</id>
+	<name>eref Module</name>
+	<version>1.0-SNAPSHOT</version>
+	<package>org.openmrs.module.eref</package>
+	<author>Vinit</author>
+	<description>
+			Referral
+	</description>
+	
+	<!-- / Module Properties -->
+	
+	<require_version>1.2.0.3400</require_version>
+
+
+    <!-- Module Activator -->
+	<activator>org.openmrs.module.eref.erefActivator</activator>
+
+
+	
+		<!-- Add's link to admin page --> 
+	 <extension>
+	  <point>org.openmrs.admin.list</point>
+	  <class>org.openmrs.module.eref.extension.html.AdminList</class>
+	 </extension>
+	 <extension>
+		<point>org.openmrs.gutter.tools</point>
+		<class>org.openmrs.module.eref.extension.html.GutterExtension</class>
+	</extension>    
+  	 <extension>
+		<point>org.openmrs.gutter.tools</point>
+		<class>org.openmrs.module.eref.extension.html.GutterExtension1</class>
+	</extension>
+  	<!-- Maps hibernate file's , if present -->   	
+   	<mappingFiles>Ereferral.hbm.xml</mappingFiles>
+
+	
+	<!-- Internationalization -->
+	<!-- All message codes should start with @MODULE_ID@.* -->
+	<messages>
+		<lang>en</lang>
+		<file>messages.properties</file>
+	</messages>
+	<messages>
+		<lang>fr</lang>
+		<file>messages_fr.properties</file>
+	</messages>
+	<messages>
+		<lang>es</lang>
+		<file>messages_es.properties</file>
+	</messages>
+	<!-- /Internationalization -->
+	
+	<!-- Servlets -->
+	<!-- Accessed through the url /pageContext()/moduleServlet/<moduleId>/<servlet-name> -->
+	
+	<servlet>
+		<servlet-name>addServlet</servlet-name>
+		<servlet-class>org.openmrs.module.eref.AddReferralServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>viewServlet</servlet-name>
+		<servlet-class>org.openmrs.module.eref.ViewReferralsServlet</servlet-class>
+	</servlet>
+	<servlet>
+		<servlet-name>deleteServlet</servlet-name>
+		<servlet-class>org.openmrs.module.eref.DeleteServlet</servlet-class>
+	</servlet>
+</module>
+
